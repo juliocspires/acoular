@@ -18,8 +18,8 @@ bf_author = "Acoular developers"
 
 
 # preparation for compiling the beamformer extension
-import scipy.weave
-weavepath = scipy.weave.__path__[0]
+import weave
+weavepath = weave.__path__[0]
 import numpy
 numpypath = numpy.__path__[0]
 
